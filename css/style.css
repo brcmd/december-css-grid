@@ -1,0 +1,40 @@
+body {
+    font-family: Georgia, Times, serif;
+    font-size: 1.8em;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+  color: black;
+  text-align: left;
+  margin: 34px 0 0 34px;
+}
+
+div {
+  background-color: white;
+  color: black;
+  border: 2px solid;
+  padding: 21px;
+  display: grid;
+}
+
+.container {
+    border: 0;
+    display: grid;
+  grid-gap: 8px;
+  grid-template: repeat(5, 89px) / repeat(7, 89px);
+}
+
+#thirty-one {
+    grid-column-start: 3;
+    grid-column-end: 8;
+   grid-row-start: 5;
+    grid-row-end: 6;
+  background: #FEAC5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+  border: 2px solid black;
+}
